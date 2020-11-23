@@ -11,7 +11,7 @@ namespace ChristmasWithTypes
             var xmasDay = Christmas.Day.thursday;
 
             //TODO set Santa's name to Kris Kringle
-            xmas.Santa = "krisKringle";
+            xmas.Santa = "Kris Kringle";
 
             //TODO Insert 3 presents you would like for xmas.  They must be strings
             xmas.Presents =  new string[3]{"xbox","socks", "tie" }; 
@@ -25,7 +25,7 @@ namespace ChristmasWithTypes
 
             foreach (var present in xmas.Presents)
             {
-                Console.WriteLine($"    {present}");
+                Console.WriteLine($" {present}");
             }
 
             Console.WriteLine($"\n We like to call Santa, {xmas.Santa}");
